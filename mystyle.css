@@ -1,0 +1,54 @@
+body {
+    background-color:midnightblue;
+}
+#fo1 {
+    color: darkorange;
+    font-size: 0.7cm;
+}
+#fo2 {
+    color: dodgerblue;
+    font-size: 0.7cm;
+}
+#fo3 {
+    color:dodgerblue;
+    font-size:1.5cm;
+}
+#fo4 {
+    color: darkorange;
+    font-size: 1.5cm;
+}
+#di1 {
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    background-color: #202599;
+    border-radius: 20px;
+    border: 2px #303599 solid;
+    color: dodgerblue;
+    box-shadow: 0px 0 7px 1px #3c2dd9;
+    align-items:center;
+}
+#di2 {
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    background-color: #202599;
+    border-radius: 20px;
+    border: 2px #303599 solid;
+    color: darkorange;
+    box-shadow: 0px 0 7px 1px #3c2dd9;
+}
+#but1 {
+    box-shadow: 0px 0 7px 1px #3c2dd9;
+    text-align: center;
+    background-color: #202599;
+    border: 2px navy solid;
+    border-radius: 10px;
+    padding: 8px 50px;
+    margin-bottom: 10px;
+}
+#but2 {
+    box-shadow: 0px 0 7px 1px #3c2dd9;
+    text-align: center;
+    background-color: #202599;
+}
