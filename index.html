@@ -4,31 +4,10 @@
     <link rel="stylesheet" href="mystyle.css">
 </link>
 </head>
-<body>
+<body style="background-color:pink;">
     <center>
 <div id="duzy" style="width:100%; height:100%;">
         <table id="tab1">
-<script>
-    function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "yellow";
-  } else {
-   document.body.style.backgroundColor = "pink";
-  }
-}
-
-// Create a MediaQueryList object
-var x = window.matchMedia("(max-width: 700px)")
-
-// Call listener function at run time
-myFunction(x);
-
-// Attach listener function on state changes
-x.addEventListener("change", function() {
-  myFunction(x);
-});
-
-    </script>
             <tr style="width:100%">
                 <td colspan="2" style="height:5%">
                     <img src="img.jpg" id="img1" />
@@ -53,32 +32,11 @@ x.addEventListener("change", function() {
                 <td colspan="2" style="width:100%; height:100%; background-color:black;">
 		    <h2> Dmitry Dylevich © 2024</h2>
                 </td>
+	    </tr>
         </table>
       </div>
-
 <div id="maly"  style="width:100%; height:100%;">
         <table id="tab1">
-<script>
-    function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "yellow";
-  } else {
-   document.body.style.backgroundColor = "pink";
-  }
-}
-
-// Create a MediaQueryList object
-var x = window.matchMedia("(max-width: 700px)")
-
-// Call listener function at run time
-myFunction(x);
-
-// Attach listener function on state changes
-x.addEventListener("change", function() {
-  myFunction(x);
-});
-
-    </script>
             <tr style="width:100%">
                 <td style="height:5%">
                     <img src="img.jpg" id="img1" />
@@ -101,6 +59,7 @@ x.addEventListener("change", function() {
                 <td style="width:100%; height:100%; background-color:black;">
 		    <h2> Dmitry Dylevich © 2024</h2>
                 </td>
+	    </tr>
         </table>
 	</div>
     </center>
